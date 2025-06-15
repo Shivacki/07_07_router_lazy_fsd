@@ -1,0 +1,119 @@
+:root {
+  --errorColor: red;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.description {
+  font-size: 0.7em;
+  color: grey;
+  padding-left: 0.3rem;
+}
+
+.asterisk {
+  color: red;
+  font-weight: 500;
+}
+
+.error {
+  color: var(--errorColor);
+  border-color: var(--errorColor);
+  font-size: 0.8em;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid grey;
+}
+
+.inputError {
+  border-color: var(--errorColor);
+  color: var(--errorColor);
+  outline: none;
+}
+
+/* контейнер input'а, в к-ом отобр-ется image + input */
+.inputImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  /* padding: 1px 2px; */
+}
+
+.inputImgContainerError {
+  border-color: var(--errorColor);
+  color: var(--errorColor);
+}
+
+/* input, когда рядом отобр-ется image >> за границы отвечает контейнер */
+.inputImg {
+  border: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.inputImg:focus {
+  outline: none;  /* выд-е эл-та при фокусе */
+}
+
+/*
+.inputVariantDefault {
+}
+*/
+
+.inputVariantFilled {
+  background-color: lightgrey;
+}
+
+.inputVariantUnstyled {
+  border: none;
+}
+
+
+/* ----------------- Размеры ------------------------------ */
+.sizeXs {
+  font-size: 0.6rem;
+}
+
+.sizeSm {
+  font-size: 0.8rem;
+}
+
+.sizeMd {
+  font-size: 1rem;
+}
+
+.sizeLg {
+  font-size: 1.2rem;
+}
+
+.sizeXl {
+  font-size: 1.4rem;
+}
+/* ----------------- END Размеры ---------------------------- */
+
+/* ----------------- Радиус закругления --------------------- */
+.radiusXs {
+  border-radius: none;
+}
+
+.radiusSm {
+  border-radius: 0.3rem;
+}
+
+.radiusMd {
+  border-radius: 0.7rem;
+}
+
+.radiusLg {
+  border-radius: 0.8rem;
+}
+
+.radiusXl {
+  border-radius: 1.2rem;
+}
+
+/* ----------------- END Радиус закругления --------------------- */

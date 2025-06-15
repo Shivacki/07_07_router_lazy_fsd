@@ -1,0 +1,12 @@
+/* Общие стили, используемые для отображения подробной инфы об эл-те в категории */
+
+.detailContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.tableDetail td {
+  padding-right: 20px;
+}
+
